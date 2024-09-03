@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+{{ $ps := where (where .Site.Pages "Type" .Type) "Title" "!=" .Title }}
+{{ if eq .RelPermalink "/events/" }}
+  {{ $ps = where (where .Site.Pages "Kind" "section") "Title" "!=" .Title }}
+{{ end }}
+
+{{ if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug")  }}
+</ul>
+  <li>layout: layouts/_default/list.html</li>
+  <li>.CurrentSection.Type: {{.CurrentSection.Type}}</li>
+  <li>.Type: {{.Type}}</li>
+  <li>.CurrentSection.Type == .Type: {{eq .CurrentSection.Type .Type}}</li>
+  <li>$ps: {{ $ps }}</li>
+</ul>
+{{ end }}
+
+<h2 class="post-title">{{ .Title | markdownify }}</h2>
+
+{{ with .Content }}
+<div class="index-content">
+  {{ . }}
+</div>
+{{ end }}
+
+<div>
+  {{ range $ps }}
+  <article class="on-list">
+    <h2>
+      <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+    </h2>
+  </article>
+  {{ end }}
+
+  {{ partial "pagination.html" . }}
+</div>
+
+{{ end }}

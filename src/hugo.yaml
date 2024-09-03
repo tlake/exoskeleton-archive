@@ -1,13 +1,35 @@
 baseURL: 'https://exoarchive.horse'
-copyright: "© Tanner Lake"
+copyright: '© Tanner Lake'
 custom_css:
   - "css/custom.css"
 enableEmoji: true
 languageCode: 'en-us'
+paginate: 16
 publishDir: "../published"
 title: 'Dr. Exoskeleton Fan Archive'
 theme: 'terminal'
 
+languages:
+  en:
+    languageName: 'English'
+    menu:
+      main:
+        - identifier: events
+          name: Events
+          weight: 1
+          url: /events
+        - identifier: about
+          name: About
+          url: /about
+          weight: 2
+      
+    params:
+      logo:
+        logoText: 'Exo Archive'
+    title: 'Exo Archive'
+
 params:
   centerTheme: true
+  #contentTypeName: "events"
   fullWidthTheme: true
+

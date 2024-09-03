@@ -1,7 +1,7 @@
 ---
 
-title: events/_index.md title
+title: Past Dr. Exoskeleton Events
+type: events
 
 ---
 
-events/index.md content
