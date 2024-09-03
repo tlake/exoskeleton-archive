@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Different PAX Event on Dr Exo</title>
+    <link>http://localhost:1313/events/other-pax/</link>
+    <description>Recent content in A Different PAX Event on Dr Exo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Tanner Lake</copyright><atom:link href="http://localhost:1313/events/other-pax/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>some test question</title>
+      <link>http://localhost:1313/events/other-pax/000/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/events/other-pax/000/</guid>
+      <description>question, answer</description>
+      <content>&lt;p&gt;question, answer&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,1 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://exoarchive.horse/categories/</loc></url><url><loc>https://exoarchive.horse/</loc></url><url><loc>https://exoarchive.horse/events/</loc></url><url><loc>https://exoarchive.horse/events/pax-west-2024/</loc></url><url><loc>https://exoarchive.horse/tags/</loc></url><url><loc>https://exoarchive.horse/events/pax-west-2024/000/</loc></url><url><loc>https://exoarchive.horse/events/pax-west-2024/001/</loc></url><url><loc>https://exoarchive.horse/events/pax-west-2024/002/</loc></url><url><loc>https://exoarchive.horse/events/pax-west-2024/003/</loc></url><url><loc>https://exoarchive.horse/events/pax-west-2024/004/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/events/2024-pax-west/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/events/</loc>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/events/2024-pax-west/111/</loc>
+  </url><url>
+    <loc>http://localhost:1313/events/2024-pax-west/112/</loc>
+  </url><url>
+    <loc>http://localhost:1313/events/2024-pax-west/113/</loc>
+  </url><url>
+    <loc>http://localhost:1313/events/2024-pax-west/114/</loc>
+  </url><url>
+    <loc>http://localhost:1313/events/2024-pax-west/115/</loc>
+  </url>
+</urlset>

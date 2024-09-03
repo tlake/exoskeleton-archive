@@ -4,11 +4,15 @@
   --accent: #dabc54;
   --font-size: 1rem;
   --line-height: 1.54rem;
-  --radius: 8pxpx;
+  --radius: 8px;
 }
 
 html {
   box-sizing: border-box;
+}
+
+strong {
+  color: var(--accent);
 }
 
 *,
@@ -23,7 +27,7 @@ body {
   margin: 0;
   padding: 0;
   font-family:
-    "Fira Code",
+    "RoughTypewriter",
     Monaco,
     Consolas,
      "Ubuntu Mono",
@@ -46,24 +50,47 @@ body {
   color: color-mix(in srgb var(--foreground) 50%, black);
 }
 
-h1,
-h2 {
-  font-size: calc(var(--font-size) * 1.1);
+h1 {
+  font-size: calc(var(--font-size) * 1.2);
   text-transform: uppercase;
   letter-spacing: 0.04em;
-}
-
-h1 {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: calc(var(--font-size) * 0.2);
 }
 
-h3,
-h4,
-h5,
-h6 {
+h2 {
+  color: var(--foreground);
   font-size: calc(var(--font-size) * 1.1);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+h3 {
+  font-size: calc(var(--font-size) * 1.0);
+  letter-spacing: 0.04em;
+}
+
+h2 > a,
+h3 > a,
+h4 > a,
+h5 > a,
+h6 > a {
+  color: var(--foreground);
+}
+
+h4 {
+  font-size: calc(var(--font-size) * 0.9);
+  letter-spacing: 0.04em;
+}
+
+h5 {
+  font-size: calc(var(--font-size) * 0.8);
+  letter-spacing: 0.04em;
+}
+
+h6 {
+  font-size: calc(var(--font-size) * 0.7);
   letter-spacing: 0.04em;
 }
 
@@ -372,4 +399,9 @@ hr {
   border: none;
   background: var(--accent);
   height: 2px;
+}
+
+.navigation-menu {
+  font-family: "Chalkboy";
+  font-size: 2rem;
 }

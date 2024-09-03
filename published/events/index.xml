@@ -1,1 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>events/_index.md title on Dr. Exoskeleton Fan Archive</title><link>https://exoarchive.horse/events/</link><description>Recent content in events/_index.md title on Dr. Exoskeleton Fan Archive</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>© Tanner Lake</copyright><atom:link href="https://exoarchive.horse/events/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Past Dr. Exoskeleton Events on Exo Archive</title>
+    <link>http://localhost:1313/events/</link>
+    <description>Recent content in Past Dr. Exoskeleton Events on Exo Archive</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Tanner Lake</copyright><atom:link href="http://localhost:1313/events/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
