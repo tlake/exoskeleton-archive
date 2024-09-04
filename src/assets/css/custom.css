@@ -46,10 +46,10 @@
 }
 
 .post-author {
-  font-family: RoughTypewriter, monospace;
+  font-family: "RoughTypewriter", "monospace";
 }
 
 body {
-  font-family: "RoughTypewriter", Monaco, Consolas, "Ubuntu Mono", monospace;
+  font-family: "RoughTypewriter", "Monaco", "Consolas", "Ubuntu Mono", "monospace";
 }
 

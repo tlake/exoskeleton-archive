@@ -8,14 +8,11 @@
 {{ if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug")  }}
 </ul>
   <li>layout: layouts/_default/list.html</li>
-  <li>.CurrentSection.Type: {{.CurrentSection.Type}}</li>
-  <li>.Type: {{.Type}}</li>
-  <li>.CurrentSection.Type == .Type: {{eq .CurrentSection.Type .Type}}</li>
   <li>$ps: {{ $ps }}</li>
 </ul>
 {{ end }}
 
-<h2 class="post-title">{{ .Title | markdownify }}</h2>
+<h1 class="post-title">{{ .Title | markdownify }}</h1>
 
 {{ with .Content }}
 <div class="index-content">
@@ -27,7 +24,18 @@
   {{ range $ps }}
   <article class="on-list">
     <h2>
-      <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+      {{ if eq .Kind "section" }}
+      <a href="{{ .Permalink }}">
+        {{ .Title | markdownify }}
+      </a>
+      {{ else }}
+      <a href="{{ .Permalink }}">
+        Zone {{ .Params.Zone | markdownify }} ::
+        Gear {{ .Params.Gear | markdownify }} ::
+        {{ .Params.Category | markdownify }} ::
+        #{{ .Params.Question | markdownify }}
+      </a>
+      {{ end }}
     </h2>
   </article>
   {{ end }}

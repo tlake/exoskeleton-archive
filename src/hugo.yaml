@@ -32,4 +32,6 @@ params:
   centerTheme: true
   #contentTypeName: "events"
   fullWidthTheme: true
+  newerPosts: Prev
+  olderPosts: Next
 
