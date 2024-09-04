@@ -13,9 +13,9 @@ zone: {{ default 0 .Site.Params.Zone }}
 
 CLUE
 
-Hint: {{< spoiler >}} HINT {{< /spoiler >}}
+HINT: {{< spoiler >}} HINT {{< /spoiler >}}
 
 ---
 
-Answer: {{< spoiler >}} ANSWER {{< /spoiler >}}
+ANSWER: {{< spoiler >}} ANSWER {{< /spoiler >}}
 
