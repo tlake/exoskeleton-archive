@@ -1,4 +1,3 @@
-baseURL: 'https://exoarchive.horse'
 copyright: '© Tanner Lake'
 custom_css:
   - "css/custom.css"
