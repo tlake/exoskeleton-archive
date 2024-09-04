@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 {{ $ps := where (where .Site.Pages "Type" .Type) "Title" "!=" .Title }}
-{{ if eq .RelPermalink "/events/" }}
+{{ if eq .CurrentSection.Type "events" }}
   {{ $ps = where (where .Site.Pages "Kind" "section") "Title" "!=" .Title }}
 {{ end }}
 
