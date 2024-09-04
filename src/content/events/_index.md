@@ -1,6 +1,6 @@
 ---
 
-title: Past Dr. Exoskeleton Events
+title: Past Events
 type: events
 
 ---

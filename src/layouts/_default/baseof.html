@@ -2,7 +2,19 @@
 <html lang="{{ $.Site.Language }}">
 <head>
   {{ block "title" . }}
-    <title>{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }} :: {{ $.Site.Title }}{{ end }}</title>
+  <title>
+    {{ if .IsHome }}
+      {{ $.Site.Title }}
+    {{ else }}
+      {{ if .Title }}
+        {{ .Title }} :: {{ $.Site.Title }}
+      {{ else if and (.Params.Category) (.Params.Question) }}
+        {{ .Params.Category }} #{{ .Params.Question }} :: {{ $.Site.Title }}
+      {{ else }}
+        {{ $.Site.Title }}
+      {{ end }}
+    {{ end }}
+  </title>
   {{ end }}
   {{ partial "head.html" . }}
 </head>
