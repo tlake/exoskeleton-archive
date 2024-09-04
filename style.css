@@ -435,22 +435,22 @@ hr {
 
 @font-face {
   font-family: "Chalkboy";
-  src: url("/fonts/chalkboy.otf") format("opentype");
+  src: url("fonts/chalkboy.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Chalktastic";
-  src: url("/fonts/chalktastic.ttf") format("truetype");
+  src: url("fonts/chalktastic.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "PressStart2P";
-  src: url("/fonts/press-start-2p.ttf") format("truetype");
+  src: url("fonts/press-start-2p.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "RoughTypewriter";
-  src: url("/fonts/rough-typewriter.otf") format("opentype");
+  src: url("fonts/rough-typewriter.otf") format("opentype");
 }
 
 .post-author {
