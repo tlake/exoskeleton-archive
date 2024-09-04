@@ -1,6 +1,5 @@
+baseURL: 'https://tlake.github.io/exoskeleton-archive'
 copyright: '© Tanner Lake'
-custom_css:
-  - "css/custom.css"
 enableEmoji: true
 languageCode: 'en-us'
 paginate: 16
