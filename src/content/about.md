@@ -1,8 +1,8 @@
 ---
 
-title: about.md title
+title: About
 
 ---
 
-about.md content
+Still a work in progress!
 
