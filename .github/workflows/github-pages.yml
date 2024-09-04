@@ -30,4 +30,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: publish
           publish_dir: ./docs
+          cname: exo-archive.org
 
