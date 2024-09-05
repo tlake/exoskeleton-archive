@@ -15,7 +15,7 @@
 
 <article class="post">
   <h1 class="post-title">
-      {{ if eq .Section "events" }}
+      {{ if and (eq .Section "events") (not .Title) }}
       <a href="{{ .Permalink }}">
         Zone {{ .Params.Zone | markdownify }} ::
         Gear {{ .Params.Gear | markdownify }} ::

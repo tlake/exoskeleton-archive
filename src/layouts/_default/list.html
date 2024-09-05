@@ -24,16 +24,16 @@
   {{ range $ps }}
   <article class="on-list">
     <h2>
-      {{ if eq .Kind "section" }}
+      {{ if and (eq .Section "events") (not .Title) }}
       <a href="{{ .Permalink }}">
-        {{ .Title | markdownify }}
+        {{ with .Params.Zone}} Zone {{ . | markdownify }} :: {{ end }}
+        {{ with .Params.Gear}} Gear {{ . | markdownify }} :: {{ end }}
+        {{ with .Params.Category }} {{ . | markdownify }}{{ end }}
+        {{ with .Params.Question }} :: #{{. | markdownify }}{{ end }}
       </a>
       {{ else }}
       <a href="{{ .Permalink }}">
-        Zone {{ .Params.Zone | markdownify }} ::
-        Gear {{ .Params.Gear | markdownify }} ::
-        {{ .Params.Category | markdownify }} ::
-        #{{ .Params.Question | markdownify }}
+        {{ .Title | markdownify }}
       </a>
       {{ end }}
     </h2>

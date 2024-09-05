@@ -1,1 +1,1 @@
-<p style="color:var(--accent);">HINT: <span class="spoiler">{{- .Inner | markdownify -}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+<p style="color:var(--accent);">{{ if .Get "free" }} FREE {{- end }} HINT: <span class="spoiler">{{- .Inner | markdownify -}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>

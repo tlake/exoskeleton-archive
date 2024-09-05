@@ -7,3 +7,6 @@ type: 2024-pax-west
 
 ---
 
+## Contributors:
+- mechamoogle (Essentia Chanterelle)
+

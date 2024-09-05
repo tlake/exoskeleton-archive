@@ -7,8 +7,12 @@
   <div class="pagination__buttons">
     {{ if .NextInSection }}
       <a href="{{ .NextInSection.Permalink }}" class="button inline prev">
+        {{- if .NextInSection.Params.Category }}
           "{{ .NextInSection.Params.Category }}"
-          #{{.NextInSection.Params.Question }}
+          {{- with .NextInSection.Params.Question }} #{{ . }} {{- end }}
+        {{- else }}
+          "{{ .NextInSection.Title }}"
+        {{- end }}
       </a>
     {{ end }}
     {{ if and .NextInSection .PrevInSection }}
@@ -16,8 +20,12 @@
     {{ end }}
     {{ if .PrevInSection }}
       <a href="{{ .PrevInSection.Permalink }}" class="button inline next">
+        {{- if .PrevInSection.Params.Category }}
           "{{ .PrevInSection.Params.Category }}"
-          #{{.PrevInSection.Params.Question }}
+          {{- with .PrevInSection.Params.Question }} #{{ . }} {{- end }}
+        {{- else }}
+          "{{ .PrevInSection.Title }}"
+        {{- end }}
       </a>
     {{ end }}
   </div>
