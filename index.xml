@@ -895,33 +895,22 @@ class="left"
 &lt;p>If you aren&amp;rsquo;t already part of the &lt;a href="https://discord.gg/pax">PAX Community Discord&lt;/a>, it&amp;rsquo;s worth a join! Therein you can find, of course, a &lt;strong>#drexoskeleton&lt;/strong> channel, but I have it on good authority that other channels exist there too.&lt;/p>
 &lt;h2 id="contributing">Contributing&lt;/h2>
 &lt;p>The Exo Archive is a simple static &lt;a href="https://gohugo.io/">Hugo&lt;/a> site deployed via &lt;a href="https://pages.github.com/">GitHub Pages&lt;/a>.
-The source code lives in the &lt;a href="https://github.com/tlake/exoskeleton-archive/">tlake/exoskeleton-archive&lt;/a> repository, and if you&amp;rsquo;re interested in helping contribute to the site (content-wise it&amp;rsquo;s pretty simple, just markdown files), &lt;a href="https://github.com/tlake/exoskeleton-archive/blob/main/CONTRIBUTING.md">there&amp;rsquo;s a document&lt;/a> for that.&lt;/p></description><content>&lt;h2 id="community">Community&lt;/h2>
+The source code lives in the &lt;a href="https://github.com/tlake/exoskeleton-archive/">tlake/exoskeleton-archive&lt;/a> repository, and if you&amp;rsquo;re interested in helping contribute to the site (content-wise it&amp;rsquo;s pretty simple, just markdown files) there&amp;rsquo;s a &lt;a href="https://github.com/tlake/exoskeleton-archive/blob/main/CONTRIBUTING.md">document&lt;/a> for that.&lt;/p></description><content>&lt;h2 id="community">Community&lt;/h2>
 &lt;p>If you aren&amp;rsquo;t already part of the &lt;a href="https://discord.gg/pax">PAX Community Discord&lt;/a>, it&amp;rsquo;s worth a join! Therein you can find, of course, a &lt;strong>#drexoskeleton&lt;/strong> channel, but I have it on good authority that other channels exist there too.&lt;/p>
 &lt;h2 id="contributing">Contributing&lt;/h2>
 &lt;p>The Exo Archive is a simple static &lt;a href="https://gohugo.io/">Hugo&lt;/a> site deployed via &lt;a href="https://pages.github.com/">GitHub Pages&lt;/a>.
-The source code lives in the &lt;a href="https://github.com/tlake/exoskeleton-archive/">tlake/exoskeleton-archive&lt;/a> repository, and if you&amp;rsquo;re interested in helping contribute to the site (content-wise it&amp;rsquo;s pretty simple, just markdown files), &lt;a href="https://github.com/tlake/exoskeleton-archive/blob/main/CONTRIBUTING.md">there&amp;rsquo;s a document&lt;/a> for that.&lt;/p>
-&lt;h2 id="my-team-essentia-chanterelle">My Team: Essentia Chanterelle&lt;/h2>
+The source code lives in the &lt;a href="https://github.com/tlake/exoskeleton-archive/">tlake/exoskeleton-archive&lt;/a> repository, and if you&amp;rsquo;re interested in helping contribute to the site (content-wise it&amp;rsquo;s pretty simple, just markdown files) there&amp;rsquo;s a &lt;a href="https://github.com/tlake/exoskeleton-archive/blob/main/CONTRIBUTING.md">document&lt;/a> for that.&lt;/p>
+&lt;h2 id="who-are-you">Who are you?&lt;/h2>
 &lt;p>
 &lt;img
 src="https://exo-archive.org/images/mechamoogle.svg"
 class="left"
 style="display:inline; border:none; padding:0; margin:0; margin-right:auto;"
-width="50px"
+width="55px"
 />
-mechamoogle (me!) (team captain)&lt;/p>
-&lt;p>
-&lt;img
-src="https://exo-archive.org/images/Auri.svg"
-class="left"
-style="display:inline; border:none; padding:0; margin:0; margin-right:auto;"
-width="50px"
-/>
-Auri&lt;/p>
-&lt;p>
-&lt;img
-src="https://exo-archive.org/images/deathofall84.svg"
-class="left"
-style="display:inline; border:none; padding:0; margin:0; margin-right:auto;"
-width="50px"
-/>
-deathofall84&lt;/p></content></item></channel></rss>
+mechamoogle&lt;/p>
+&lt;ul>
+&lt;li>it me&lt;/li>
+&lt;li>&amp;ldquo;Essentia Chanterelle&amp;rdquo; team captain&lt;/li>
+&lt;li>&lt;a href="https://hachyderm.io/@tlake">@tlake@hachyderm.io&lt;/a> on mastodon&lt;/li>
+&lt;/ul></content></item></channel></rss>
