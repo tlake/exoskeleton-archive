@@ -6,7 +6,7 @@ weight: 2610
 
 ---
 
-{{< image src="/images/gate.png" >}}
+{{< image src="/images/2024-pax-west/gate.png" >}}
 
 A mighty gate stands before you.
 
