@@ -891,25 +891,16 @@ class="left"
 &lt;p style="color:var(--accent);"> HINT: &lt;span class="spoiler">Brushing up on another language or two might get those gears turning.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/p>
 &lt;p style="color:var(--accent);"> HINT: &lt;span class="spoiler">Need more help? Ask the creator, just take a left 6,312 miles from here. That&amp;rsquo;s where you will find this achievement.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/p>
 &lt;hr>
-&lt;p style="color:var(--accent);">ANSWER: &lt;span class="spoiler" style="min-width:400px;display:inline-block;">大收藏家&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/p></content></item><item><title>About</title><link>https://exo-archive.org/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://exo-archive.org/about/</guid><description>&lt;h2 id="my-team">My Team&lt;/h2>
-&lt;h3 id="essentia-chanterelle">Essentia Chanterelle&lt;/h3>
-&lt;p>
-&lt;img
-src="https://exo-archive.org/images/mechamoogle.svg"
-class="left"
-style="display:inline; border:none; padding:0; margin:0; margin-right:auto;"
-width="50px"
-/>
-mechamoogle (me!) (team captain)&lt;/p>
-&lt;p>
-&lt;img
-src="https://exo-archive.org/images/Auri.svg"
-class="left"
-style="display:inline; border:none; padding:0; margin:0; margin-right:auto;"
-width="50px"
-/>
-Auri&lt;/p></description><content>&lt;h2 id="my-team">My Team&lt;/h2>
-&lt;h3 id="essentia-chanterelle">Essentia Chanterelle&lt;/h3>
+&lt;p style="color:var(--accent);">ANSWER: &lt;span class="spoiler" style="min-width:400px;display:inline-block;">大收藏家&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span>&lt;/p></content></item><item><title>About</title><link>https://exo-archive.org/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://exo-archive.org/about/</guid><description>&lt;h2 id="community">Community&lt;/h2>
+&lt;p>If you aren&amp;rsquo;t already part of the &lt;a href="https://discord.gg/pax">PAX Community Discord&lt;/a>, it&amp;rsquo;s worth a join! Therein you can find, of course, a &lt;strong>#drexoskeleton&lt;/strong> channel, but I have it on good authority that other channels exist there too.&lt;/p>
+&lt;h2 id="contributing">Contributing&lt;/h2>
+&lt;p>The Exo Archive is a simple static &lt;a href="https://gohugo.io/">Hugo&lt;/a> site deployed via &lt;a href="https://pages.github.com/">GitHub Pages&lt;/a>.
+The source code lives in the &lt;a href="https://github.com/tlake/exoskeleton-archive/">tlake/exoskeleton-archive&lt;/a> repository, and if you&amp;rsquo;re interested in helping contribute to the site (content-wise it&amp;rsquo;s pretty simple, just markdown files), &lt;a href="https://github.com/tlake/exoskeleton-archive/blob/main/CONTRIBUTING.md">there&amp;rsquo;s a document&lt;/a> for that.&lt;/p></description><content>&lt;h2 id="community">Community&lt;/h2>
+&lt;p>If you aren&amp;rsquo;t already part of the &lt;a href="https://discord.gg/pax">PAX Community Discord&lt;/a>, it&amp;rsquo;s worth a join! Therein you can find, of course, a &lt;strong>#drexoskeleton&lt;/strong> channel, but I have it on good authority that other channels exist there too.&lt;/p>
+&lt;h2 id="contributing">Contributing&lt;/h2>
+&lt;p>The Exo Archive is a simple static &lt;a href="https://gohugo.io/">Hugo&lt;/a> site deployed via &lt;a href="https://pages.github.com/">GitHub Pages&lt;/a>.
+The source code lives in the &lt;a href="https://github.com/tlake/exoskeleton-archive/">tlake/exoskeleton-archive&lt;/a> repository, and if you&amp;rsquo;re interested in helping contribute to the site (content-wise it&amp;rsquo;s pretty simple, just markdown files), &lt;a href="https://github.com/tlake/exoskeleton-archive/blob/main/CONTRIBUTING.md">there&amp;rsquo;s a document&lt;/a> for that.&lt;/p>
+&lt;h2 id="my-team-essentia-chanterelle">My Team: Essentia Chanterelle&lt;/h2>
 &lt;p>
 &lt;img
 src="https://exo-archive.org/images/mechamoogle.svg"
