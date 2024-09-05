@@ -1,27 +1,23 @@
 {{ define "main" }}
 
-{{ $ps := where (where .Site.Pages "Type" .Type) "Title" "!=" .Title }}
+{{ $pages := where (where .Site.Pages "Type" .Type) "Title" "!=" .Title }}
 {{ if eq .CurrentSection.Type "events" }}
-  {{ $ps = where (where .Site.Pages "Kind" "section") "Title" "!=" .Title }}
+  {{ $pages = where (where .Site.Pages "Kind" "section") "Title" "!=" .Title }}
 {{ end }}
+
+{{ $paginator := .Paginate $pages }}
 
 {{ if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug")  }}
 </ul>
   <li>layout: layouts/_default/list.html</li>
-  <li>$ps: {{ $ps }}</li>
+  <li>$paginator: {{ $paginator }}</li>
 </ul>
 {{ end }}
 
 <h1 class="post-title">{{ .Title | markdownify }}</h1>
 
-{{ with .Content }}
-<div class="index-content">
-  {{ . }}
-</div>
-{{ end }}
-
 <div>
-  {{ range $ps }}
+  {{ range $paginator.Pages }}
   <article class="on-list">
     <h2>
       {{ if and (eq .Section "events") (not .Title) }}
@@ -41,6 +37,13 @@
   {{ end }}
 
   {{ partial "pagination.html" . }}
+
 </div>
+
+{{ with .Content }}
+<div class="index-content">
+  {{ . }}
+</div>
+{{ end }}
 
 {{ end }}
