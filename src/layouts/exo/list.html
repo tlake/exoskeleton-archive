@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+{{ $pages := where (where (where .Site.Pages "Type" "exo") "Kind" "page") "Params.exoevent" .Params.exoevent }}
+{{ $paginator := .Paginate $pages }}
+
+{{ if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug")  }}
+</ul>
+  <li>layout: layouts/_default/list.html</li>
+  <li>.Params.exoevent: {{ .Params.exoevent }}</li>
+  <li>$paginator: {{ $paginator }}</li>
+</ul>
+{{ end }}
+
+<h1 class="post-title">
+  <a href="{{ .Permalink }}">
+    {{ .Title | markdownify }}
+  </a>
+</h1>
+
+<div>
+  {{ range $paginator.Pages }}
+  <article class="on-list">
+    <h2>
+      <a href="{{ .Permalink }}">
+        {{ with .Params.zone}} Zone {{ . | markdownify }} :: {{ end }}
+        {{ with .Params.gear}} Gear {{ . | markdownify }} :: {{ end }}
+        {{ with .Params.gear_theme }} {{ . | markdownify }}{{ end }}
+        {{ with .Params.question }} :: #{{. | markdownify }}{{ end }}
+      </a>
+    </h2>
+  </article>
+  {{ end }}
+
+  {{ partial "pagination.html" . }}
+
+</div>
+
+{{ with .Content }}
+<div class="index-content">
+  {{ . }}
+</div>
+{{ end }}
+
+{{ end }}
