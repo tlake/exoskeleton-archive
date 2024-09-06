@@ -1,0 +1,90 @@
+{{ define "main" }}
+
+{{ if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug")  }}
+<ul>
+  <li>layout: layouts/_default/single.html</li>
+  <li>.Params.exoevent: {{ .Params.exoevent }}</li>
+</ul>
+{{ end }}
+
+<a href=".." class="button inline prev">Back to question index</a>
+
+<article class="post">
+
+  <h1 class="post-title">
+    <a href="{{ .Permalink }}">
+      {{ if .Params.gear_theme }}
+        {{ with .Params.zone }} Zone {{ . | markdownify }} :: {{ end }}
+        {{ with .Params.gear }} Gear {{ . | markdownify }} :: {{ end }}
+        {{ .Params.gear_theme | markdownify }}
+        {{ with .Params.question }} :: #{{ . | markdownify }} {{ end }}
+      {{ else }}
+        {{ .Title | markdownify }}
+      {{ end }}
+    </a>
+  </h1>
+
+  <div class="post-meta">
+    {{- with .Params.Author -}}
+    <span class="post-author">{{ . }}</span>
+    {{- end -}}
+  </div>
+
+  {{ partial "cover.html" . }}
+
+  {{- with .Params.image_path -}}
+  <img src="{{ . | safeURL }}"
+     class="left"
+  />
+  {{- end -}}
+
+  {{- with .Params.clue -}}
+  <p> {{ . | markdownify }} </p>
+  {{- end -}}
+
+  {{- with .Content -}}
+  <div class="post-content">
+    <div>
+      {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">#</a> ${3}` | safeHTML }}
+    </div>
+  </div>
+  {{- end -}}
+
+  {{- range .Params.free_hints }}
+  <p style="color:var(--accent);">
+    FREE HINT:
+    <span class="spoiler">
+      {{- . | markdownify -}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </span>
+  </p>
+  {{- end -}}
+
+  {{- range .Params.hints }}
+  <p style="color:var(--accent);">
+    HINT:
+    <span class="spoiler">
+      {{- . | markdownify -}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </span>
+  </p>
+  {{- end -}}
+
+  <hr />
+
+  {{- with .Params.solution }}
+  <p style="color:var(--accent);">
+    ANSWER:
+    <span class="spoiler" style="min-width:50%;">
+      {{- . | markdownify -}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </span>
+  </p>
+  {{- end -}}
+
+  {{ partial "posts_pagination.html" . }}
+
+  {{ if not (.Params.hideComments | default false) }}
+    {{ partial "comments.html" . }}
+  {{ end }}
+
+</article>
+
+{{ end }}

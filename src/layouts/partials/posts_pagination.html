@@ -6,9 +6,9 @@
   <div class="pagination__buttons">
     {{ if .NextInSection }}
       <a href="{{ .NextInSection.Permalink }}" class="button inline prev">
-        {{- if .NextInSection.Params.Category }}
-          "{{ .NextInSection.Params.Category }}"
-          {{- with .NextInSection.Params.Question }} #{{ . }} {{- end }}
+        {{- if .NextInSection.Params.gear_theme }}
+          "{{ .NextInSection.Params.gear_theme }}"
+          {{- with .NextInSection.Params.question }} #{{ . }} {{- end }}
         {{- else }}
           "{{ .NextInSection.Title }}"
         {{- end }}
@@ -19,9 +19,9 @@
     {{ end }}
     {{ if .PrevInSection }}
       <a href="{{ .PrevInSection.Permalink }}" class="button inline next">
-        {{- if .PrevInSection.Params.Category }}
-          "{{ .PrevInSection.Params.Category }}"
-          {{- with .PrevInSection.Params.Question }} #{{ . }} {{- end }}
+        {{- if .PrevInSection.Params.gear_theme }}
+          "{{ .PrevInSection.Params.gear_theme }}"
+          {{- with .PrevInSection.Params.question }} #{{ . }} {{- end }}
         {{- else }}
           "{{ .PrevInSection.Title }}"
         {{- end }}
