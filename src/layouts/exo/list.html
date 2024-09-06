@@ -22,10 +22,14 @@
   <article class="on-list">
     <h2>
       <a href="{{ .Permalink }}">
-        {{ with .Params.zone}} Zone {{ . | markdownify }} :: {{ end }}
-        {{ with .Params.gear}} Gear {{ . | markdownify }} :: {{ end }}
-        {{ with .Params.gear_theme }} {{ . | markdownify }}{{ end }}
-        {{ with .Params.question }} :: #{{. | markdownify }}{{ end }}
+        {{- if .Params.gear_theme }}
+          {{- with .Params.zone}} Zone {{ . | markdownify }} :: {{- end }}
+          {{- with .Params.gear}} Gear {{ . | markdownify }} :: {{- end }}
+          {{- with .Params.gear_theme }} {{ . | markdownify }}{{- end }}
+          {{- with .Params.question }} :: #{{. | markdownify }}{{- end }}
+        {{- else }}
+          {{- .Title }}
+        {{- end }}
       </a>
     </h2>
   </article>

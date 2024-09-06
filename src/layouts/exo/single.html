@@ -39,7 +39,7 @@
   {{- end -}}
 
   {{- with .Params.clue -}}
-  <p> {{ . }} </p>
+  <p> {{ . | markdownify }} </p>
   {{- end -}}
 
   {{- with .Content -}}
