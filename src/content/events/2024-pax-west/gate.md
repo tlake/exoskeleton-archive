@@ -1,12 +1,13 @@
 ---
 
-date: 2024-08-30
-title: "Gate"
 weight: 2610
 
----
+image_path: "/images/2024-pax-west/gate.png"
+title: "Gate"
 
-{{< image src="/images/2024-pax-west/gate.png" >}}
+date: 2024-08-30
+
+---
 
 A mighty gate stands before you.
 
