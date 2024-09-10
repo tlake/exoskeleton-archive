@@ -1,12 +1,12 @@
 ---
 
-title: 2024 PAX West
+title: 2023 PAX West
 
 type: exo
-exoevent: 2024-pax-west
+exoevent: 2023-pax-west
 cascade:
   type: exo
-  exoevent: 2024-pax-west
+  exoevent: 2023-pax-west
 
 ---
 
