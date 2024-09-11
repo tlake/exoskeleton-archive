@@ -8,6 +8,8 @@ cascade:
   type: "exo"
   exoevent: "{{ default "" .Site.Params.name | urlize }}"
 
+date: {{ default now .Site.Params.date | time.Format "2006-01-02" }}
+
 ---
 {{ if .Site.Params.contributors }}
 ## Contributors:

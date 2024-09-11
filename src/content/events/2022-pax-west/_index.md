@@ -1,14 +1,14 @@
 ---
 
-title: 2024 PAX West
+title: 2022 PAX West
 
 type: exo
-exoevent: 2024-pax-west
+exoevent: 2022-pax-west
 cascade:
   type: exo
-  exoevent: 2024-pax-west
+  exoevent: 2022-pax-west
 
-date: 2024-08-30
+date: 2022-09-02
 
 ---
 

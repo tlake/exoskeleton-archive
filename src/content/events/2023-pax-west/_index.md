@@ -8,6 +8,8 @@ cascade:
   type: exo
   exoevent: 2023-pax-west
 
+date: 2023-09-01
+
 ---
 
 ## Contributors:
