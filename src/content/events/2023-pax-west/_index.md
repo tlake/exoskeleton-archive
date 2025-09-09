@@ -8,12 +8,12 @@ cascade:
   type: exo
   exoevent: 2023-pax-west
 
-date: 2023-09-01
-
----
-
-## Contributors:
+contributors:
 - mechamoogle (Essentia Chanterelle)
 - deathofall84 (Essentia Chanterelle)
 - Auri (Essentia Chanterelle)
+
+date: 2023-09-01
+
+---
 
