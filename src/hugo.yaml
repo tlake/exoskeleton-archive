@@ -26,6 +26,11 @@ languages:
         logoText: 'Exo Archive'
     title: 'Exo Archive'
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 params:
   centerTheme: true
   newerPosts: Prev
