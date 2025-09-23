@@ -39,7 +39,10 @@
   <h2>Archived Questions:</h2>
   <article class="on-list">
   <ul class="on-list">
+  {{/* revert "range $pages" to this paginator to return to broken-up index listing
   {{ range $paginator.Pages }}
+  */}}
+  {{ range $pages }}
     <li>
       <a href="{{ .Permalink }}">
         {{- if .Params.gear_theme }}
@@ -56,7 +59,9 @@
   </ul>
   </article>
 
+  {{/* uncomment to return to broken-up index listing
   {{ partial "pagination.html" . }}
+  */}}
 
 </div>
 
