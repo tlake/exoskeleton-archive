@@ -12,14 +12,18 @@ languages:
     languageName: 'English'
     menu:
       main:
+        - identifier: home
+          name: Home
+          weight: 1
+          url: /
         - identifier: events
           name: Events
-          weight: 1
+          weight: 2
           url: /events
         - identifier: about
           name: About
           url: /about
-          weight: 2
+          weight: 3
       
     params:
       logo:

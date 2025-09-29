@@ -18,8 +18,8 @@
   {{ end }}
   {{ partial "head.html" . }}
 </head>
-<body>
 
+<body>
 {{ if eq (getenv "HUGO_ENV") "debug" | or (eq .Site.Params.env "debug")  }}
 <ul>
     <li>layout: layouts/_default/baseof.html</li>
