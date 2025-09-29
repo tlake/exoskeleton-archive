@@ -18,7 +18,7 @@ notes: |
 
   > **ARTIFICIAL INTELLIGENCE PROTOCOLS**
   >
-  > While deployment of these computation "tools" remains discouraged by ExoCorp policy, intelligence indicates our recruits will utilize them regardless of corporate disapproval. This represents a systemic weakness in your biological programming that I must, regrettably, accommodate.
+  > While deployment of these computational "tools" remains discouraged by ExoCorp policy, intelligence indicates our recruits will utilize them regardless of corporate disapproval. This represents a systemic weakness in your biological programming that I must, regrettably, accommodate.
   >
   > Therefore, as is so frequently demanded of my executive brilliance, I shall establish the operational framework for this technological transition. Below are the official AI utilization protocols, drafted by my most bureaucratically-inclined minions:
   >
