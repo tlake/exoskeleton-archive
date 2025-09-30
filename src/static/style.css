@@ -11,10 +11,6 @@ html {
   box-sizing: border-box;
 }
 
-strong {
-  color: var(--accent);
-}
-
 *,
 *:before,
 *:after {
@@ -346,8 +342,8 @@ sup {
 }
 
 mark {
-  background: color-mix(in srgb, var(--accent) 45%, transparent);
-  color: var(--foreground);
+  background: none;
+  color: var(--accent);
 }
 
 blockquote {

@@ -17,10 +17,33 @@
   </a>
 </h1>
 
-<div>
-  {{ range $paginator.Pages }}
+<div class="index-content">
+  {{ with .Params.notes }}
+  <h2>Notes:</h2>
+  {{ . | markdownify }}
+  {{ end }}
+
+  {{ with .Params.contributors }}
+  <h2>Contributors:</h2>
+  <ul>
+    {{ range . }}
+    <li>{{ . | markdownify }}</li>
+    {{ end }}
+  </ul>
+  {{ end }}
+
+  {{ with .Content }}
+  {{ . }}
+  {{ end }}
+
+  <h2>Archived Questions:</h2>
   <article class="on-list">
-    <h2>
+  <ul class="on-list">
+  {{/* revert "range $pages" to this paginator to return to broken-up index listing
+  {{ range $paginator.Pages }}
+  */}}
+  {{ range $pages }}
+    <li>
       <a href="{{ .Permalink }}">
         {{- if .Params.gear_theme }}
           {{- with .Params.zone}} Zone {{ . | markdownify }} :: {{- end }}
@@ -31,18 +54,15 @@
           {{- .Title }}
         {{- end }}
       </a>
-    </h2>
-  </article>
+    </li>
   {{ end }}
+  </ul>
+  </article>
 
+  {{/* uncomment to return to broken-up index listing
   {{ partial "pagination.html" . }}
+  */}}
 
 </div>
-
-{{ with .Content }}
-<div class="index-content">
-  {{ . }}
-</div>
-{{ end }}
 
 {{ end }}
