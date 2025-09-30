@@ -18,11 +18,11 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.129.0'
           extended: true
 
       - name: Build
-        run: HUGO_ENV=production hugo --source=src --minify
+        run: HUGO_ENV=production hugo --source=src --minify --verbose
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
