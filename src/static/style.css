@@ -413,8 +413,9 @@ hr {
   position: absolute;
   top: 0;
   left: 0;
-  padding-left: 12px;
+  padding-left: 10px;
   width: 100%;
+  min-width: 176px;
   height: 100%;
   border-radius: 1px;
   color: black;
