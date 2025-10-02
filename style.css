@@ -236,6 +236,16 @@ img {
   overflow: hidden;
 }
 
+img.difficulty {
+ width: 30px;
+ max-width: 30px;
+ height: 30px;
+ max-height: 30px;
+ float: right;
+ margin: 0;
+ padding: 0;
+}
+
 figure img,
 figure video {
   margin-bottom: 0;
