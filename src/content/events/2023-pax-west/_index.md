@@ -12,6 +12,7 @@ contributors:
 - mechamoogle (Essentia Chanterelle)
 - deathofall84 (Essentia Chanterelle)
 - Auri (Essentia Chanterelle)
+- team Elegant Saloon
 
 date: 2023-09-01
 
