@@ -22,6 +22,11 @@
         {{ .Title | markdownify }}
       {{ end }}
     </a>
+    {{ with .Params.difficulty }}
+      <img src="/images/difficulty/{{ . | safeURL }}.png"
+         class="difficulty"
+      />
+    {{ end }}
   </h1>
 
   <div class="post-meta">
