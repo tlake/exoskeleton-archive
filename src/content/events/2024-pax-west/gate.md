@@ -2,7 +2,7 @@
 
 weight: 2610
 
-image_path: "/images/2024-pax-west/gate.png"
+image_path: "/images/2024-pax-west/gate.webp"
 title: "Gate"
 
 date: 2024-08-30
